@@ -1,9 +1,10 @@
 apply plugin: 'java'
+apply plugin: 'maven'
 
-group = 'com.eden314.jtemper'
+group = 'com.github.thombohlk'
 version = '0.1'
 
-description = 'jtemper'
+description = 'jTemper'
 
 sourceCompatibility = 1.7
 targetCompatibility = 1.7
@@ -27,10 +28,3 @@ dependencies {
     testCompile group: 'junit', name: 'junit', version:'3.8.1'
 }
 
-uploadArchives {
-    repositories {
-        flatDir {
-            dirs 'target'
-        }
-    }
-}

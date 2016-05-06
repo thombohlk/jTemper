@@ -1,5 +1,7 @@
 # jTemper
 
+[![Release](https://jitpack.io/v/User/Repo.svg)](https://jitpack.io/#thombohlk/jTemper)
+
 jTemper is a small library to retrieve data from your TEMPer devices. Currently only the TEMPer2 device is supported. jTemper can be used standalone or as a library for your Java program. 
 
 ### Standalone
