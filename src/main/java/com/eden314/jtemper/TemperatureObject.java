@@ -4,7 +4,7 @@ package com.eden314.jtemper;
  * Object for holding all data from a single request
  * to a TEMPer2 device.
  */
-class TemperatureObject
+public class TemperatureObject
 {
     protected double insideTemperature;
 

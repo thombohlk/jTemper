@@ -18,7 +18,7 @@ import org.usb4java.LibUsbException;
  * with the USB device have been derived from the usb4java Quick
  * Start guide.
  */
-class UsbDeviceCommunictor
+public class UsbDeviceCommunictor
 {
     final static int DEFAULT_TIMEOUT = 1000; // 1 second
 

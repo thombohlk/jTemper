@@ -6,7 +6,7 @@ import java.nio.ByteBuffer;
  * Class for reading values from the TEMPer2 usb thermometer.
  *
  */
-class Temper2Reader extends UsbDeviceCommunictor
+public class Temper2Reader extends UsbDeviceCommunictor
 {
     final static byte[] TEMP_REQUEST = { (byte)0x01, (byte)0x80, (byte)0x33, (byte)0x01, (byte)0x00, (byte)0x00, (byte)0x00, (byte)0x00 };
 
